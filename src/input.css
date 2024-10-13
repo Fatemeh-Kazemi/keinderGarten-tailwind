@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'vazirmatn-b';
-    src: url(./fonts/webfonts/Vazirmatn-Bold.woff2) format('woff2');
-  }
-@font-face {
     font-family: 'vazirmatn-l';
     src: url(./fonts/webfonts/Vazirmatn-Light.woff2) format('woff2');
   }

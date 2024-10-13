@@ -12,7 +12,6 @@ module.exports = {
       Text2: "#828282"
     },
     fontFamily:{
-      vazirmatn_b: ["'vazirmatn-b'"],
       vazirmatn_l: ["'vazirmatn-l'"]
     }
   },

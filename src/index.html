@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Kinder Garten</title>
     <link rel="stylesheet" href="output.css">
 </head>
+
 <body>
-    
+
     <div class="font-vazirmatn_l">
-        <header class="p-4 h-[752px] bg-no-repeat bg-cover bg-[url('assets/Subtract.png')]">
-            <nav class="flex justify-between font-vazirmatn_b">
+         <!-- just mobile  -->
+        <!-- <div class="pb-16 w-full md:none bg-no-repeat bg-bottom bg-cover bg-[url('assets/mobile-header.svg')]">
+            <img src="assets/line.svg" class="md:hidden" alt="">
+
+            <img src="assets/flying kids 1.png" class="md:hidden" alt="">
+        </div> -->
+        <header class="p-8 md:h-[752px] bg-no-repeat bg-cover md:bg-[url('assets/Subtract.png')]">
+            <nav class="md:container hidden md:flex justify-between font-bold ">
                 <h3 class="text-lg">مهدکودک ما</h3>
-                <ul class="flex gap-[13px]">
+                <ul class="flex gap-10">
                     <li><a href="#">خانه</a></li>
                     <li><a href="#">مقالات</a></li>
                     <li><a href="#">درباره ما</a></li>
@@ -22,19 +30,215 @@
                 <img src="assets/سرچ.svg" alt="">
             </nav>
 
-            <div class="flex justify-between items-stretch">
-                <div class="flex flex-col justify-start items-start gap-8">
-                    <h1 class="font-vazirmatn_b text-4xl">ثبت نام پیش دبستانی 
-                        <br>
-                        سال تحصیلی 1402-1403
-                    </h1>
-                    <p class="text-sm">پیش دبستانی و مهد کودک ما با بهره‌مندی از امکانات و شیوه‌های روز دنیا در تهران <br> آماده خدمت رسانی به فرزندان ایران زمین است.</p>
-                    <button class="bg-C2 px-8 py-2 rounded-full">ثبت نام</button>
-                </div>
-                <img src="assets/flying kids 1.png" alt="">
+            <div class="flex flex-col md:flex-row justify-between items-stretch mt-10">
+                
+                <div class=" order-2 md:order-first md:w-1/2 leading-2 flex flex-col justify-center items-start gap-8">
+            <h1 class="font-bold text-4xl leading-[60px]">ثبت نام پیش دبستانی
+                <br>
+                سال تحصیلی ۱۴۰۲-۱۴۰۳
+            </h1>
+            <p class="text-sm leading-8">پیش دبستانی و مهد کودک ما با بهره‌مندی از امکانات و شیوه‌های روز دنیا
+                در تهران <br> آماده خدمت رسانی به فرزندان ایران زمین است.</p>
+                <button class="bg-C2 text-[#fff] px-8 py-2 rounded-full">ثبت نام</button>
             </div>
+            <img src="assets/flying kids 1.png" class="hidden md:block md:w-1/2" alt="">
         </header>
     </div>
 
+    <main class="container mx-auto [&>section]:py-8">
+        <section class="text-center">
+            <p class="text-base">برای پیشرفت دلبند شما</p>
+            <p class="font-bold text-[32px] mb-4">چه برنامه هایی رو داریم</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div
+                    class="group transition duration-500 hover:bg-C1 h-[277px] p-8 border border-[#eee] rounded-[32px] flex flex-col justify-center items-center gap-4">
+                    <div
+                        class="group-hover:border-2 group-hover:border-[#fff] bg-C1 size-[66px] rounded-full flex justify-center items-center">
+                        <img src="assets/ic_round-abc.svg" alt="">
+                    </div>
+                    <h3 class="font-bold text-base">آموزش زبان انگلیسی</h3>
+                    <p class="text-sm leading-6">کودکان می توانند زبان دوم را درمهد کودک ما با شیوه‌های صحیص به
+                        راحتی زبان مادری یاد بگیرند.</p>
+                </div>
+                <div
+                    class="group transition duration-500 hover:bg-C4 h-[277px] p-8 border border-[#eee] rounded-[32px] flex flex-col justify-center items-center gap-4">
+                    <div
+                        class="group-hover:border-2 group-hover:border-[#fff] size-[66px] bg-C4 rounded-full flex justify-center items-center">
+                        <img src="assets/ballon.svg" alt="">
+                    </div>
+                    <h3 class="font-bold text-base">بازی و سرگرمی</h3>
+                    <p class="text-sm leading-6">هر چه امکان پرداختن به بازیهای سالم و سازنده بیشتر باشد، فکر و ذهن
+                        و جسم بهتر پرورش می یابد.</p>
+                </div>
+                <div
+                    class="transition duration-500 hover:bg-C2 h-[277px] p-8 border border-[#eee] rounded-[32px] flex flex-col justify-center items-center gap-4">
+                    <div class="border-2 border-C2 size-[66px] bg-[#fff] rounded-full flex justify-center items-center">
+                        <img src="assets/Vector.svg" alt="">
+                    </div>
+                    <h3 class="font-bold text-base">آموزش و استعدادیابی</h3>
+                    <p class="text-sm leading-6">کودک زیر ۷ سال را نباید به طور مستقیم آموزش داد و باید از روش‌های
+                        تخصصی کمک بگیریم.</p>
+                </div>
+                <div
+                    class="group transition duration-500 hover:bg-C3 h-[277px] p-8 border border-[#eee] rounded-[32px] flex flex-col justify-center items-center gap-4">
+                    <div
+                        class="group-hover:border-2 group-hover:border-[#fff] size-[66px] bg-C3 rounded-full flex justify-center items-center">
+                        <img src="assets/Glyph_ undefined.svg" alt="">
+                    </div>
+                    <h3 class="font-bold text-base">کلاس شطرنج</h3>
+                    <p class="text-sm leading-6">آموزش شطرنج باعث افزایش تمرکز و دقت در کودکان میشود. کودک یاد
+                        میگیرد هرکاری را اول ارزیابی کند.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="leading-7 flex flex-col md:flex-row items-stretch justify-between gap-4 md:gap-10">
+            <div class="md:w-1/2"><img src="assets/Group 15.png" class="mx-auto" alt=""></div>
+            <div class="md:w-1/2 flex flex-col justify-center gap-2">
+                <p class="font-bold text-Text2">برای مدیریت عالی</p>
+                <p class="font-bold text-3xl">اصول کاری مهدکودک چیست؟</p>
+                <p class="text-Text2 hidden lg:block">آموزش یک پایه اساسی برای پیشرفت و توسعه هر فرد و جامعه است. اهمیت
+                    امر آموزش نه
+                    تنها به افزایش
+                    دانش و مهارت‌ها محدود نمی‌شود، بلکه تأثیرات گسترده‌تری بر جوانب مختلف زندگی دارد. امر آموزش
+                    ابزاری برای تجربه‌ی جهان، تفکر انتقادی، توسعه‌ی شخصیت و ایجاد تغییر در جامعه فراهم می‌کند.</p>
+                <p class="text-Text2 lg:hidden">اهمیت امر آموزش اولین آموزش‌ها در خانواده و در محیطی آرام شکل می‌گیرد.
+                    مانند آموزش خوب زندگی کردن، خوب حرف زدن و در کل آموزش چگونه درست اندیشیدن را باید از‌‌ همان روزهای
+                    نخست کودکی در نهاد کودک جای دهیم.</p>
+                <ul style="list-style-image: url('assets/Ellipse 5.svg');" class="font-bold list-inside">
+                    <li>آموزش و استعدایابی</li>
+                    <li>پرورش خلاقیت</li>
+                    <li>تغذیه و بهداشت</li>
+                    <li>بازی و سرکرمی</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="hidden md:flex">
+            <div class="w-1/4 leading-8">
+                <p class="font-bold text-2xl">گالری تصاویر</p>
+                <ul
+                    class="[&>li]:underline-offset-8 hover:underline hover:text-C2 hover:text-lg hover:decoration-C2 hover:decoration-2 hover:decoration-solid">
+                    <li
+                        class="underline-offset-8 hover:underline hover:text-C2 hover:text-lg hover:decoration-C2 hover:decoration-2 hover:decoration-solid">
+                        <a href="">کلاس ها</a>
+                    </li>
+                    <li
+                        class="underline-offset-8 hover:underline hover:text-C2 hover:text-lg hover:decoration-C2 hover:decoration-2 hover:decoration-solid">
+                        <a href="">غذاخوری</a>
+                    </li>
+                    <li
+                        class="underline-offset-8 hover:underline hover:text-C2 hover:text-lg hover:decoration-C2 hover:decoration-2 hover:decoration-solid">
+                        <a href="">حیاط</a>
+                    </li>
+                    <li
+                        class="underline-offset-8 hover:underline hover:text-C2 hover:text-lg hover:decoration-C2 hover:decoration-2 hover:decoration-solid">
+                        <a href="">اتاق بازی</a>
+                    </li>
+                    <li
+                        class="underline-offset-8 hover:underline hover:text-C2 hover:text-lg hover:decoration-C2 hover:decoration-2 hover:decoration-solid">
+                        <a href="">اتاق استراحت</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="[&>img]:rounded-xl w-3/4 grid grid-cols-3 gap-8">
+                <img src="assets/Mask group.png" alt="">
+                <img src="assets/Farzandane_aftab-25-1030x773.png" alt="">
+                <img src="assets/Farzandane_aftab_Entertainment-15-1-1030x773.png" alt="">
+                <img src="assets/Farzandane_aftab_Entertainment-38-1030x773.png" alt="">
+                <img src="assets/Farzandane_aftab-26-1030x773.png" alt="">
+                <img src="assets/Farzandane_aftab-8-1030x773.png" alt="">
+            </div>
+        </section>
+
+        <section>
+            <p class="text-base text-center">آخرین نوشته ها</p>
+            <p class="font-bold text-center text-[32px] mb-4">مطالب خواندنی وبلاگ</p>
+            <div class="p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-4 gap-8">
+                <div class="rounded-[32px] grid gap-2">
+                    <img src="assets/Rectangle 15.png" class="w-[100%]" alt="">
+                    <h3 class="font-bold text-base">احساس خجالت در کودکان</h3>
+                    <p class="leading-6 text-Text2">خجالت در کودکان، احساسی است که با واکنش‌های فیزیکی مانند چهره‌ی قرمز
+                        و خم شدن سر، همراه می‌شود. این احساس ممکن است به دلیل ترس از تحلیل دیگران یا نگرانی از عملکرد در
+                        ...</p>
+                    <a href="" class="text-sm font-bold underline underline-offset-8">مطالعه مطلب ></a>
+                </div>
+                <div class="rounded-[32px] grid gap-2">
+                    <img src="assets/Rectangle 20.png" class="w-[100%]" alt="">
+                    <h3 class="font-bold text-base">رفتار جلب توجه در کودکان</h3>
+                    <p class="leading-6 text-Text2">جلب توجه در کودکان ممکن است با کمک رفتارهای هیجانی مانند عصبانیت یا
+                        برخوردهای نامتعارف انجام شود. همچنین، استفاده از موقعیت‌های خاص، خنده‌های پراکنده و تمثیل‌های
+                        جالب نیز ...</p>
+                    <a href="" class="text-sm font-bold underline underline-offset-8">مطالعه مطلب ></a>
+                </div>
+                <div class="rounded-[32px] grid gap-2 md:hidden lg:block">
+                    <img src="assets/Rectangle 21.png" class="w-[100%]" alt="">
+                    <h3 class="font-bold text-base">خواص پرتقال و لیمو برای کودکان</h3>
+                    <p class="leading-6 text-Text2">پرتقال و لیمو، علاوه بر ویتامین C، فیبر غذایی دارند که هضم بهتر و
+                        تنظیم قند خون را تسهیل می‌کند. همچنین، آنتی‌اکسیدان‌های موجود در آن‌ها به سلامت قلب و پایین
+                        آوردن التهاب‌ها کمک ...</p>
+                    <a href="" class="text-sm font-bold underline underline-offset-8">مطالعه مطلب ></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-[#fff] pt-16">
+        <img src="assets/Asset 3 1.png" alt="">
+        <div class="bg-C2 p-10 -mt-2">
+            <div class="container grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <p class="font-bold">درباره مهد ما</p>
+                    <p>مهد کودک ما یک محیط آموزشی پویا و مهربان برای کودکان فراهم می‌کند. ما با تیمی متخصص و مهربان
+                        به ارتقاء توانایی‌های اجتماعی، انگیزشی و تحصیلی کودکان می‌پردازیم. هچنین بازی‌های آموزشی،
+                        هنر و تفریحات سازنده را به کودکان ارائه می‌دهیم.</p>
+
+                </div>
+                <div class="px-4">
+                    <p class="font-bold mb-3">گالری تصاویر</p>
+                    <div class="[&>img]:rounded-xl w-4/4 grid lg:grid-cols-4 gap-2 grid-cols-2">
+                        <img src="assets/Mask group.png" class="w-100" alt="">
+                        <img src="assets/Farzandane_aftab-8-1030x773.png" class="w-100" alt="">
+                        <img src="assets/Farzandane_aftab-25-1030x773.png" class="w-100" alt="">
+                        <img src="assets/Farzandane_aftab_Entertainment-15-1-1030x773.png" class="w-100" alt="">
+                        <img src="assets/Farzandane_aftab_Entertainment-38-1030x773.png"
+                            class="w-100 hidden lg:inline-block" alt="">
+                        <img src="assets/Farzandane_aftab-26-1030x773.png" class="w-100 hidden lg:inline-block" alt="">
+                        <img src="assets/Farzandane_aftab_Entertainment-38-1030x773.png" class="hidden lg:inline-block"
+                            alt="">
+                        <img src="assets/Farzandane_aftab-8-1030x773.png" class="w-100 hidden lg:inline-block" alt="">
+                    </div>
+                </div>
+                <div class="leading-9">
+                    <p class="font-bold">تماس با ما</p>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="assets/social (1).svg" class="inline-block" alt="">
+                                <span>kindergarten@</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="assets/social (2).svg" class="inline-block" alt="">
+                                02122000000 - 09128888888
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="assets/social (3).svg" class="inline-block" alt="">
+                                تهران، دروس، خیابان رشت، کوچه گل‌بو، پلاک 16
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
 </body>
+
 </html>
